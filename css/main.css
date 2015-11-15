@@ -1,0 +1,982 @@
+#main {
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR TABLET*/
+  /*MEDIA FOR TABLET*/
+  /*MEDIA FOR TABLET*/
+  /*MEDIA FOR TABLET*/
+  /*MEDIA FOR TABLET*/
+  /*MEDIA FOR TABLET*/
+}
+@media (min-width: 10px) and (max-width: 500px) {
+  #main #slide-1 {
+    background: url('/img/large/studySmall.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  #main #slide-2 {
+    background: url('/img/large/computerSmall.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+  #main #slide-3 {
+    background: url('/img/large/studentsSmall.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 15%;
+  }
+  #main #slide-4 {
+    background: url('/img/large/testSmall.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  /*#main #slide-5 {
+    background: url('/img/large/boredSmall.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }*/
+}
+@media (min-width: 501px) and (max-width: 1200px) {
+  #main #slide-1 {
+    background: url('/img/large/study.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  #main #slide-2 {
+    background: url('/img/large/computer.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+  #main #slide-3 {
+    background: url('/img/large/students.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 15%;
+  }
+  #main #slide-4 {
+    background: url('/img/large/test.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  /*#main #slide-5 {
+    background: url('/img/large/bored.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }*/
+}
+@media (min-width: 1201px) {
+  #main #slide-1 {
+    background: url('/img/large/studyLarge.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  #main #slide-2 {
+    background: url('/img/large/computerLarge.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+  #main #slide-3 {
+    background: url('/img/large/studentsLarge.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 15%;
+  }
+  #main #slide-4 {
+    background: url('/img/large/testLarge.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  /*#main #slide-5 {
+    background: url('/img/large/bored.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: 50% 35%;
+  }*/
+}
+@media (min-width: 10px) {
+  #main {
+    /*Quotes*/
+    /*SIGN UP BUTTON */
+    /*HIGHLIGHTED FACTS*/
+    /*ROTATING QUOTES*/
+  }
+  .spacer {
+	height: 6.4em;
+	display: block;
+  }
+  #main .infoText {
+    font-size: 1em;
+  }
+  #main .infoTextBold {
+    font-size: 1.1em;
+  }
+  #main .quoteText {
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Lato", "Arial";
+    font-weight: 300;
+    font-size: 40px;
+    color: #616161;
+    text-align: center;
+  }
+  #main .quoteAuthor {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 25px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+  }
+  #main .quoteTitle {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 15px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+  #main .signUpButton {
+    width: 40%;
+    background: #80c6f9;
+    padding: .5em;
+    border-radius: .5em;
+    color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    cursor: pointer;
+    max-width: 300px;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  #main .signUpButton:hover {
+    background: #90d6f9;
+  }
+  #main .content1 {
+    padding-top: 0em;
+    width: 100%;
+    height: 14em;
+  }
+  #main .slide {
+    width: 100%;
+    height: 14em;
+    z-index: 5;
+  }
+  #main .content2 {
+    background: #fbfbfb;
+    width: 100%;
+    height: 54em;
+    padding-top: 2em;
+  }
+  #main .infoBox {
+    display: block;
+    margin-top: 2em;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main .infoImage {
+    margin-top: 1em;
+    width: 100%;
+    height: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    fill: #80c6f9;
+    -webkit-transition: fill 0.2s ease-out;
+    -moz-transition: fill 0.2s ease-out;
+    -o-transition: fill 0.2s ease-out;
+    transition: fill 0.2s ease-out;
+  }
+  #main .infoImage:hover {
+    fill: #90d6f9;
+  }
+  #main .infoText {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #main .infoTextBold {
+    font-size: 1.6em;
+  }
+  #main #infoImage1 {
+    max-height: 200px;
+    max-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #main #infoImage2 {
+    max-height: 200px;
+    max-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #main #infoImage3 {
+    max-height: 200px;
+    max-width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  #main .content3 {
+    min-height: 20em;
+    height: auto;
+    width: 100%;
+  }
+  #main .quoteText {
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Lato", "Arial";
+    font-weight: 300;
+    font-size: 30px;
+    color: #616161;
+    text-align: center;
+  }
+  #main .quoteAuthor {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 30px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+  }
+  #main .quoteTitle {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 20px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 500px) {
+  #main .content1 {
+    padding-top: 0em;
+    height: 21em;
+  }
+  #main .slide {
+    height: 21em;
+  }
+}
+@media (min-width: 600px) {
+  #main .signUpButton {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 800px) {
+    /*ENLARGED PICTURE SLIDES*/
+  
+    /*ROTATING QUOTES*/
+  #main .content1 {
+    width: 100%;
+    height: 32em;
+  }
+  #main .slide {
+    width: 100%;
+    height: 32em;
+  }
+  #main .content2 {
+    width: 100%;
+    height: 20em;
+  }
+  #main .infoBox {
+    display: inline-block;
+    margin-top: 2em;
+    width: 33%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+  }
+  #main .infoImage {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+  }
+  #main .infoText {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 20px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #main .infoTextBold {
+    font-size: 22px;
+  }
+  #main #infoImage1 {
+    max-height: 200px;
+    max-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #main #infoImage2 {
+    max-height: 200px;
+    max-width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #main #infoImage3 {
+    max-height: 200px;
+    max-width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  #main .content3 {
+    min-height: 30em;
+    height: auto;
+    width: 100%;
+  }
+  #main .quoteText {
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Lato", "Arial";
+    font-weight: 300;
+    font-size: 50px;
+    color: #616161;
+    text-align: center;
+  }
+  #main .quoteAuthor {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 30px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+  }
+  #main .quoteTitle {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 20px;
+    color: #616161;
+    text-align: center;
+    font-family: "Lato", "Arial";
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+  #main .signUpButton {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1200px) {
+  #main .content1 {
+    width: 100%;
+    height: 37em;
+  }
+  #main .slide {
+    width: 100%;
+    height: 37em;
+
+  }
+  #main .content2 {
+    overflow: auto;
+    height: auto;
+  }
+  #main .infoBox {
+    max-width: 1100px;
+  }
+  #main .infoImage {
+    height: 14em;
+  }
+  #main .infoText {
+    font-size: 26px;
+    padding-bottom: 2em;
+  }
+  #main .infoTextBold {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1500px) {
+  #main .content1 {
+    width: 100%;
+    height: 42em;
+  }
+  #main .slide {
+    width: 100%;
+    height: 42em;
+  }
+  #main .signUpButton {
+    font-size: 2em;
+  }
+}
+#about {
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+}
+@media (min-width: 25px) {
+  #about {
+    /*SIGN UP BUTTON */
+  }
+  .spacer {
+		height: 7em;
+		display:block;
+	}
+  #about .content1 {
+    width: 100%;
+    text-align: center;
+  }
+  #about .picture {
+    height: auto;
+    width: 95%;
+    margin: 0 auto 2em;
+    border-radius: .3em;
+    max-width: 1000px;
+  }
+  #about .heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  #about .background1 {
+    border-radius: .6em;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1000px;
+    padding: 1em;
+  }
+  #about .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2.4em;
+    text-align: center;
+  }
+  #about .body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    padding: 1em;
+  }
+  #about .author {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #about .content2 {
+    width: 100%;
+  }
+  #about .signUpButton {
+    width: 40%;
+    background: #80c6f9;
+    padding: .5em;
+    border-radius: .5em;
+    color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    cursor: pointer;
+    max-width: 300px;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  #about .signUpButton:hover {
+    background: #90d6f9;
+  }
+}
+@media (min-width: 600px) {
+  #about .signUpButton {
+    font-size: 1.5em;
+  }
+  .spacer {
+		height: 4em;
+		display:block;
+	}
+}
+@media (min-width: 800px) {
+  #about .signUpButton {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1000px) {
+  #about .faq {
+    text-align: left;
+  }
+  #about .signUpButton {
+    font-size: 1.85em;
+  }
+  .spacer {
+		height: 4.5em;
+		display:block;
+	}
+}
+@media (min-width: 2000px) {
+  #about .signUpButton {
+    font-size: 2em;
+  }
+}
+#testimonials {
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+}
+@media (min-width: 25px) {
+  #testimonials {
+    /*SIGN UP BUTTON */
+  }
+  .spacer {
+		height: 7em;
+		display:block;
+	}
+  #testimonials .content1 {
+    width: 100%;
+    text-align: center;
+  }
+  #testimonials .picture {
+    height: auto;
+    width: 95%;
+    margin: 0 auto 2em;
+    border-radius: .3em;
+    max-width: 1000px;
+  }
+  #testimonials .heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  #testimonials .background1 {
+    border-radius: .6em;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1000px;
+    padding: 1em;
+  }
+  #testimonials .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2.4em;
+    text-align: center;
+  }
+  #testimonials .body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    padding: 1em;
+    padding-bottom: 0px;
+  }
+  #testimonials .author {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #testimonials .content2 {
+    width: 100%;
+  }
+  #testimonials .signUpButton {
+    width: 40%;
+    background: #80c6f9;
+    padding: .5em;
+    border-radius: .5em;
+    color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    cursor: pointer;
+    max-width: 300px;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+    margin-top: 2em;
+  }
+  #testimonials .signUpButton:hover {
+    background: #90d6f9;
+  }
+}
+@media (min-width: 600px) {
+  #testimonials .signUpButton {
+    font-size: 1.5em;
+  }
+  .spacer {
+		height: 4em;
+		display:block;
+	}
+}
+@media (min-width: 800px) {
+  #testimonials .signUpButton {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1000px) {
+  #testimonials .faq {
+    text-align: left;
+  }
+  #testimonials .signUpButton {
+    font-size: 1.85em;
+  }
+  .spacer {
+		height: 4.5em;
+		display:block;
+	}
+}
+@media (min-width: 2000px) {
+  #testimonials .signUpButton {
+    font-size: 2em;
+  }
+}
+#program {
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+  /*MEDIA FOR LANDSCAPE*/
+}
+@media (min-width: 25px) {
+  #program {
+    /*SIGN UP BUTTON */
+  }
+  .spacer {
+		height: 7em;
+		display:block;
+	}
+  #program .content1 {
+    width: 100%;
+    text-align: center;
+  }
+  #program .picture {
+    height: auto;
+    width: 95%;
+    margin: 0 auto 2em;
+    border-radius: .3em;
+    max-width: 1000px;
+  }
+  #program .heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  #program .background1 {
+    border-radius: .6em;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1000px;
+    padding: 1em;
+  }
+  #program .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2.4em;
+    text-align: center;
+  }
+  #program .body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    padding: 1em;
+  }
+  #program .content2 {
+    width: 100%;
+  }
+  #program .signUpButton {
+    width: 40%;
+    background: #80c6f9;
+    padding: .5em;
+    border-radius: .5em;
+    color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    cursor: pointer;
+    max-width: 300px;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  #program .signUpButton:hover {
+    background: #90d6f9;
+  }
+}
+@media (min-width: 600px) {
+  #program .signUpButton {
+    font-size: 1.5em;
+  }
+  .spacer {
+		height: 4em;
+		display:block;
+	}
+}
+@media (min-width: 800px) {
+  #program .signUpButton {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1000px) {
+  #program .faq {
+    text-align: left;
+  }
+  #program .signUpButton {
+    font-size: 1.85em;
+  }
+  .spacer {
+		height: 4.5em;
+		display:block;
+	}
+}
+@media (min-width: 2000px) {
+  #program .signUpButton {
+    font-size: 2em;
+  }
+}
+@media (min-width: 25px) {
+  .spacer {
+    height: 7em;
+    display:block;
+  }
+  #faq .content1 {
+    width: 100%;
+    text-align: center;
+  }
+  #faq .picture {
+    height: auto;
+    width: 95%;
+    margin: 0 auto 2em;
+    border-radius: .3em;
+    max-width: 1000px;
+  }
+  #faq .heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  #faq .background1 {
+    border-radius: .6em;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1000px;
+    padding: 1em;
+  }
+  #faq .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2.4em;
+    text-align: center;
+  }
+  #faq .body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    padding: 1em;
+  }
+  #faq .content2 {
+    width: 100%;
+  }
+  #faq .signUpButton {
+    width: 40%;
+    background: #80c6f9;
+    padding: .5em;
+    border-radius: .5em;
+    color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    cursor: pointer;
+    max-width: 300px;
+    -webkit-transition: background 0.2s ease-out;
+    -moz-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
+    transition: background 0.2s ease-out;
+  }
+  #faq .signUpButton:hover {
+    background: #90d6f9;
+  }
+}
+@media (min-width: 600px) {
+  #faq .signUpButton {
+    font-size: 1.5em;
+  }
+  .spacer {
+    height: 4em;
+    display:block;
+  }
+}
+@media (min-width: 800px) {
+  #faq .signUpButton {
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1000px) {
+  #faq .faq {
+    text-align: left;
+  }
+  #faq .signUpButton {
+    font-size: 1.85em;
+  }
+  .spacer {
+    height: 4.5em;
+    display:block;
+  }
+}
+@media (min-width: 2000px) {
+  #faq .signUpButton {
+    font-size: 2em;
+  }
+}
+@media (min-width: 25px) {
+  #careers .spacer {
+    height: 3.5em;
+  }
+  #careers #footer {
+  	margin-top: 0 !important;
+  }
+  #careers #iframe {
+    z-index: 500;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 55em;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+  }
+}
+@media (min-width: 600px) {
+  #careers .signUpButton {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 800px) {
+  #careers .signUpButton {
+    font-size: 1.7em;
+  }
+  #careers #iframe {
+    height: 75em;
+  }
+}
+@media (min-width: 1000px) {
+  #careers .faq {
+    text-align: left;
+  }
+  #careers .signUpButton {
+    font-size: 1.85em;
+  }
+  #careers #iframe {
+    height: 90em;
+  }
+}
+@media (min-width: 2000px) {
+  #careers .signUpButton {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 25px) {
+	#thankYou .content {
+		width:100%;
+		text-align: center;
+		height: 90%;
+	}
+	#thankYou .heading {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-size: 3em;
+		text-align: center;
+		padding-bottom: 1em;
+		padding-top:3em;
+	}
+	#thankYou .background {
+		border-radius: .6em;
+		background: #fbfbfb;
+		margin: 0 auto;
+		width: 85%;
+		max-width: 1000px;
+		padding: 1em;
+		height: 90%;
+	}
+	#thankYou .title {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-size: 1.8em;
+		text-align:center;
+	}
+	#thankYou .body {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+		font-size: 1.7em;
+		padding: 1em;
+		text-align: center;
+	}
+	#thankYou .spacer {
+		height: 20em;
+	}
+	#thankYou .button {
+		width: 40%;
+		background: #80c6f9;
+		padding: .5em;
+		border-radius: .5em;
+		color: #fff;
+		font-family: "Lato", "Arial";
+		font-size: 1.3em;
+		font-weight: 100;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 2em;
+		cursor: pointer;
+		max-width: 300px;
+		-webkit-transition: background .2s ease-out;
+		  -moz-transition: background .2s ease-out;
+		  -o-transition: background .2s ease-out;
+		  transition: background .2s ease-out;
+	}
+	#thankYou .signUpButton:hover {
+		background:#90d6f9;
+	}
+}
